@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Home",
+        "navigateURL": "https://www.youtube.com/"
+    },
+    {
+        "id": 2,
+        "name": "Shorts",
+        "navigateURL": "https://www.youtube.com/shorts/l-Gj3eo_omQ"
+    },
+    {
+        "id": 3,
+        "name": "Subscriptions",
+        "navigateURL": "https://www.youtube.com/feed/subscriptions"
+    },
+    {
+        "id": 4,
+        "name": "Library",
+        "navigateURL": "https://www.youtube.com/feed/library"
+    },
+    {
+        "id": 5,
+        "name": "History",
+        "navigateURL": "https://www.youtube.com/feed/history"
+    },
+    {
+        "id": 6,
+        "name": "Trending",
+        "navigateURL": "https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl"
+    },
+    {
+        "id": 7,
+        "name": "Shopping",
+        "navigateURL": "https://www.youtube.com/channel/UCkYQyvc_i9hXEo4xic9Hh2g"
+    },
+    {
+        "id": 8,
+        "name": "Music",
+        "navigateURL": "https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+    },
+    {
+        "id": 9,
+        "name": "Movies",
+        "navigateURL": "https://www.youtube.com/feed/storefront?bp=ogUCKAI%3D"
+    },
+    {
+        "id": 10,
+        "name": "Live",
+        "navigateURL": "https://www.youtube.com/channel/UC4R8DWoMoI7CAwX8_LjQHig"
+    },
+    {
+        "id": 11,
+        "name": "Gaming",
+        "navigateURL": "https://www.youtube.com/gaming"
+    },
+    {
+        "id": 12,
+        "name": "News",
+        "navigateURL": "https://www.youtube.com/channel/UCYfd'id'RxbB8Qhf0Nx7ioOYw"
+    },
+    {
+        "id": 13,
+        "name": "Sports",
+        "navigateURL": "https://www.youtube.com/channel/UCEgdi0XIXXZ-qJOFPf4JSKw"
+    },
+    {
+        "id": 14,
+        "name": "Learning",
+        "navigateURL": "https://www.youtube.com/channel/UCtFRv9O2AHqOZjjynzrv-xg"
+    },
+    {
+        "id": 15,
+        "name": "Fashion & Beauty",
+        "navigateURL": "https://www.youtube.com/channel/UCrpQ4p1Ql_hG8rKXIKM1MOQ"
+    }
+]

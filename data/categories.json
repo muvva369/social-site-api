@@ -1,0 +1,240 @@
+[
+    {
+        "title": "Introduction",
+        "id": "introduction",
+        "description": "What's video?"
+    },
+    {
+        "title": "Learning",
+        "id": "learning",
+        "description": "An awesome list of learning video streaming resources."
+    },
+    {
+        "title": "HLS",
+        "id": "hls",
+        "description": "HLS tools, libraries, and resources."
+    },
+    {
+        "title": "DASH",
+        "id": "dash",
+        "description": "DASH tools, libraries, and resources."
+    },
+    {
+        "title": "Kubernetes",
+        "id": "kubernetes",
+        "description": "Reading & resources, relative to the world of kubernetes leveraged for video devs."
+    },
+    {
+        "title": "Encoding",
+        "id": "encoding",
+        "description": "Encoding tools, libraries, and resources."
+    },
+    {
+        "title": "Transport",
+        "id": "transport",
+        "description": "Transport protocols, libraries, and resources."
+    },
+    {
+        "title": "RIST",
+        "id": "rist",
+        "description": "Reliable Internet Stream Transport protocol",
+        "parent": "transport"
+    },
+    {
+        "title": "SRT",
+        "id": "srt",
+        "description": "Secure Reliable Transport protocol",
+        "parent": "transport"
+    },
+    {
+        "title": "RTMP",
+        "id": "rtmp",
+        "description": "Real-Time Messaging Protocol",
+        "parent": "transport"
+    },
+    {
+        "title": "Streaming Server and Storage",
+        "id": "streaming-server-and-storage",
+        "description": "Packagers, origins (s3, gcs), and data movement for linear and finite playback. "
+    },
+    {
+        "title": "Reading",
+        "id": "reading",
+        "description": "A list of reading articles, blogs, and newsletters for video streaming.",
+        "parent": "learning"
+    },
+    {
+        "title": "Specs and Standards",
+        "id": "specs-and-standards",
+        "description": "Latest offical specs and standards related to video streaming."
+    },
+    {
+        "title": "Industry Forums",
+        "id": "industry-forums",
+        "parent": "specs-and-standards",
+        "description": "Industry forums relative to video streaming."
+    },
+    {
+        "title": "MPEG",
+        "id": "mpeg",
+        "parent": "specs-and-standards",
+        "description": "MPEG meetings, standards, and resources. "
+    },
+    {
+        "title": "Players",
+        "id": "players",
+        "description": "Client players, libraries, tools, and examples."
+    },
+    {
+        "title": "FFMPEG",
+        "id": "ffmpeg",
+        "description": "FFMPEG libraries, configs, tools, and examples."
+    },
+    {
+        "title": "Audio",
+        "id": "audio",
+        "description": "Audio libraries, tools, and examples."
+    },
+    {
+        "title": "Subtitles and Captions",
+        "id": "subtitles-and-captions",
+        "description": "Subtitling & Closed Caption libraries, tools, and examples."
+    },
+    {
+        "title": "HEVC",
+        "id": "hevc",
+        "parent": "encoding",
+        "description": "HEVC (h265) libraries, tools, examples, and resources."
+    },
+    {
+        "title": "VP9",
+        "id": "vp9",
+        "parent": "encoding",
+        "description": "VP9 libraries, tools, examples, and resources."
+    },
+    {
+        "title": "AV1",
+        "id": "av1",
+        "parent": "encoding",
+        "description": "AV1 libraries, tools, examples, and resources."
+    },
+    {
+        "title": "Ads",
+        "id": "ads",
+        "description": "Ads in streaming video related libraries, tools, examples, and resources."
+    },
+    {
+        "title": "Roku",
+        "id": "roku",
+        "parent": "players",
+        "description": "Roku app tools, libraries,and examples."
+    },
+    {
+        "title": "iOS tvOS",
+        "id": "ios-tvos",
+        "parent": "players",
+        "description": "AVPlayer, playback tools, sdks, and examples."
+    },
+    {
+        "title": "Web",
+        "id": "web",
+        "parent": "players",
+        "description": "Web browser player, tools, sdks, and examples."
+    },
+    {
+        "title": "Smart TVs",
+        "id": "smart-tv",
+        "parent": "players"
+    },
+    {
+        "title": "Android",
+        "id": "android",
+        "parent": "players",
+        "description": "Android and fireTV tools, sdks, and examples."
+    },
+    {
+        "title": "Chromecast",
+        "id": "chromecast",
+        "parent": "players",
+        "description": "Chromecast app tools, libraries,and examples."
+    },
+    {
+        "title": "Vendors",
+        "id": "vendors",
+        "description": "Video indurstry's various vendors products and documentations."
+    },
+    {
+        "title": "Dolby",
+        "id": "dolby",
+        "parent": "vendors",
+        "description": "Dolby specs, libraries, examples, and tools."
+    },
+    {
+        "title": "Industry Forums",
+        "id": "industry-forums",
+        "parent": "specs-standards",
+        "description": "Industry forums relative to video streaming."
+    },
+    {
+        "title": "QoE",
+        "id": "qoe",
+        "description": "QoE & Analytics tools, libraries, and resources."
+    },
+    {
+        "title": "Tools",
+        "id": "tools",
+        "description": "Streaming video tools and resources to make life easier."
+    },
+    {
+        "title": "DRM",
+        "id": "drm",
+        "description": "DRM tools, documentations, and resources."
+    },
+    {
+        "title": "Testing",
+        "id": "testing",
+        "description": "Video streaming testing tools and helpers."
+    },
+    {
+        "title": "Community",
+        "id": "community",
+        "description": "Video developers community, slack groups, conferences, meetups"
+    },
+    {
+        "title": "Conferences",
+        "id": "conferences",
+        "parent": "community"
+    },
+    {
+        "title": "Slack Groups",
+        "id": "slack",
+        "parent": "community"
+    },
+    {
+        "title": "Meet ups",
+        "id": "meetups",
+        "parent": "community"
+    },
+    {
+        "title": "Talks Presentations Podcasts",
+        "id": "talks-presentations-podcasts",
+        "parent": "learning",
+        "description": "Conference talks and pdf presentations and podcasts on streaming video ."
+    },
+    {
+        "title": "Books",
+        "id": "books",
+        "parent": "learning",
+        "description": "Books on video streaming. NOTE: Books published more than 4-5 years ago may not be up to date on latest streaming tech."
+    },
+    {
+        "title": "CDN",
+        "id": "cdn",
+        "description": "Last mile tools, documentations, and resources."
+    },
+    {
+        "title": "HDR10, HLG, Dolby Vision",
+        "id": "hdr",
+        "description": "HDR tools, learning, documentations, and resources."
+    }
+]

@@ -1,0 +1,246 @@
+{
+	"info": {
+		"_postman_id": "a770c9d6-13d8-40d5-bea9-8e09e2f985fa",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "11340750"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"user2\",\r\n    \"password\":\"mySecondPassword\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2001/social-site/api/home/login"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2001/social-site/api/home/get-content",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": {
+						"header": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"isSecretBase64Encoded": true,
+						"algorithm": "HS256",
+						"payload": "{}",
+						"addTokenTo": "header",
+						"headerPrefix": "Bearer",
+						"queryParamKey": "token"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIyIiwiaWF0IjoxNjkxMDkwMDIyfQ.Gw1tgJa-zgOc_ww48vB_VUjEV2xSVgHR6ULUhP26HsA",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:2001/social-site/api/home/get-content"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2001/social-site/api/home/get-categories",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": {
+						"header": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"isSecretBase64Encoded": true,
+						"algorithm": "HS256",
+						"payload": "{}",
+						"addTokenTo": "header",
+						"headerPrefix": "Bearer",
+						"queryParamKey": "token"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIyIiwiaWF0IjoxNjkxMTY0NDYyfQ.wE4hDYcr8d2JDSrBmaH0gsQbbjETAROnYdfxvXDFv50",
+						"type": "text"
+					}
+				],
+				"url": "http://localhost:2001/social-site/api/home/get-categories"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2001/social-site/api/home/get-explore-list",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": {
+						"header": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"isSecretBase64Encoded": true,
+						"algorithm": "HS256",
+						"payload": "{}",
+						"addTokenTo": "header",
+						"headerPrefix": "Bearer",
+						"queryParamKey": "token"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:2001/social-site/api/home/search-content-title?query=book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2001",
+					"path": [
+						"social-site",
+						"api",
+						"home",
+						"search-content-title"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "book"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2001/social-site/api/home/add-content",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": {
+						"header": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"isSecretBase64Encoded": true,
+						"algorithm": "HS256",
+						"payload": "{}",
+						"addTokenTo": "header",
+						"headerPrefix": "Bearer",
+						"queryParamKey": "token"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"contentData\": {\r\n        \"title\": \"new content adding to the data\",\r\n            \"description\": \"giving the new description here because i am running outta time\",\r\n                \"rating\": 4.9,\r\n                    \"category\": \"my-own-category\",\r\n                        \"thumbnail\": \"https://i.dummyjson.com/data/\",\r\n                            \"images\": [\"https://i.dummyjson.com/data/products/1/1.jpg\"]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2001/social-site/api/home/add-content"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2001/social-site/api/home/update-content",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": {
+						"header": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"isSecretBase64Encoded": true,
+						"algorithm": "HS256",
+						"payload": "{}",
+						"addTokenTo": "header",
+						"headerPrefix": "Bearer",
+						"queryParamKey": "token"
+					}
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":24,\r\n    \"description\":\"coming up with brand new creative description\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:2001/social-site/api/home/update-content"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:2001/social-site/api/home/get-explore-list",
+			"request": {
+				"auth": {
+					"type": "jwt",
+					"jwt": {
+						"header": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"isSecretBase64Encoded": true,
+						"algorithm": "HS256",
+						"payload": "{}",
+						"addTokenTo": "header",
+						"headerPrefix": "Bearer",
+						"queryParamKey": "token"
+					}
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIxIiwiaWF0IjoxNjkxMDg0NTgxfQ.AaDLLuOhYPnk24NGnJzRhXm-wFvCfWKjG2kRXdJzheg",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:2001/social-site/api/home/search-content-title?query=book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2001",
+					"path": [
+						"social-site",
+						"api",
+						"home",
+						"search-content-title"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "book"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
